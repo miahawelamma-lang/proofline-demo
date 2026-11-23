@@ -40,3 +40,4 @@ resource "aws_s3_bucket_server_side_encryption_configuration" "proofline_demo" {
     }
   }
 }
+# Security review: public access is blocked and server-side encryption is enabled.
